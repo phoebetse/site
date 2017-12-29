@@ -1,0 +1,96 @@
+html {
+  background: #e6e9e9;
+}
+
+body {
+  background: #fff;
+  margin: 0 auto; /* centers horizontally, 0 top bottom*/
+  max-width: 80%;    
+  padding: 2em;
+  font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+    font-family: "HelveticaNeue-UltraLight", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 5em;
+    margin-bottom: 0.3em;
+    margin-top: 0.2em;
+}
+
+h2 {
+    background-color: #582b2b;
+    color:white;
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+    padding: 0 0.3em; /*left right padding*/
+}
+
+h3, p {
+  font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+h3 {
+    font-weight: bold;
+    margin:0;
+}
+
+.name {
+    float: left;
+}
+.contact {
+    float: right;
+    margin-top: 0.2em;
+}
+
+.resume-body {
+    display: inline-block;
+}
+
+.colored {
+    color: #582b2b;
+    font-weight: 300;
+}
+
+.sidebar {
+    float: left;
+    max-width: 40%; /*max-width good for smaller screens*/
+    text-align: right;
+    margin-right: 2em;
+}
+
+ul {
+    margin: 0;
+    padding-left:0;
+}
+
+.main {
+    float: right;
+    max-width: 77%; /* TODO:Fix responsiveness!*/
+} 
+
+.desc-header {
+    display:flex;
+}
+
+.company {
+    display: flex; 
+}
+
+.team {
+    margin: 0.2em;
+    font-size:.8em;
+}
+
+.time {
+    margin-left: auto;
+}
+
+.role {
+    font-style: italic;
+}
+.summary {
+    margin-top:0.2em;
+    margin-bottom:.9em;
+}
