@@ -108,7 +108,11 @@ ul {
     margin-bottom:.9em;
 }
 
-    @media screen and (max-width: 680px) {
+    @media screen and (max-width: 785px) {
+        h1 {
+            font-size: 4em;
+            margin-top: .5em;
+        }
         .sidebar {
             margin-right: .5em;
         }
@@ -121,6 +125,9 @@ ul {
         }
         h2, h3, p, ul, .time {
             font-size: .8em;
+        }
+        .contact {
+            margin-top: 3em;
         }
     }
 }
