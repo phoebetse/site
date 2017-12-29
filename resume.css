@@ -9,6 +9,7 @@ body {
   padding: 2em;
   font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
   font-weight: 200;
+  color: #4D4D4D;
 }
 
 h1 {
@@ -29,6 +30,7 @@ h2 {
 h3, p {
   font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
   font-weight: 200;
+  color: #333333;
 }
 
 h3 {
@@ -39,9 +41,18 @@ h3 {
 .name {
     float: left;
 }
+
+.header {
+    background-color: blue;
+    height: 20%;
+}
 .contact {
     float: right;
-    margin-top: 0.2em;
+    margin-top: 2.2em;  /*TODO: align correctly?*/
+}
+
+.contact > p {
+    margin: 0 auto;
 }
 
 .resume-body {
@@ -55,9 +66,9 @@ h3 {
 
 .sidebar {
     float: left;
-    max-width: 40%; /*max-width good for smaller screens*/
+    max-width: 20%; /*max-width good for smaller screens*/
     text-align: right;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 ul {
@@ -66,8 +77,8 @@ ul {
 }
 
 .main {
-    float: right;
-    max-width: 77%; /* TODO:Fix responsiveness!*/
+    float: left;
+    max-width: 77%;
 } 
 
 .desc-header {
@@ -79,18 +90,37 @@ ul {
 }
 
 .team {
-    margin: 0.2em;
+    margin: 0.3em 0 0 0.5em ;
     font-size:.8em;
 }
 
 .time {
     margin-left: auto;
+    font-size: .9em;
 }
 
 .role {
     font-style: italic;
 }
+
 .summary {
     margin-top:0.2em;
     margin-bottom:.9em;
+}
+
+    @media screen and (max-width: 680px) {
+        .sidebar {
+            margin-right: .5em;
+        }
+    }
+
+    @media screen and (max-width: 665px) {
+        h1 {
+            font-size: 2em;
+            margin-top:1.7em;
+        }
+        h2, h3, p, ul, .time {
+            font-size: .8em;
+        }
+    }
 }
