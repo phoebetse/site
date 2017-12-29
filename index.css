@@ -1,0 +1,102 @@
+/* TODO: Redo these with percentages */
+body{
+    background: #F6E497;
+    font-family: 'Palanquin', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:300;
+}
+.homepage{
+    padding-top:60px;
+    height:100%;
+    position: relative;
+    padding-bottom:400px;
+    margin-bottom:200px;
+}
+.homeContent {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.centerOfPage{
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.name{
+    font-size: 150px;
+    font-weight: 10;
+    color:#4C1B1B;
+    left:0;
+    line-height:200px;
+    margin-top: -50px;
+    font-family: 'Noto Serif', serif;
+}
+.taglines{
+    color: #4C1B1B;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 120px;
+}
+
+.icons{
+    margin-top: 150px;
+    color:#a14040;
+}
+
+.icons a{
+    text-decoration: none !important;
+    color: #a14040 !important;
+}
+.icons a:hover{
+    color: #4C1B1B !important;
+}
+
+.fa{
+    padding-right:10px;
+}
+
+.bottom{
+    text-align:center;
+    font-size:10px;
+    line-height:10px;
+    color:#4C1B1B;
+}
+
+
+/*responsiveness*/
+@media(max-width: 550px){
+    .name{
+        font-size: 130px;
+    }
+    .taglines{
+        font-size:12px;
+    }
+}
+
+@media(max-width: 480px){
+    .name{
+        font-size: 100px;
+    }
+    .taglines{
+        margin-top:100px;
+        font-size:10px;
+    }
+    .icons{
+        margin-top:125px;
+    }
+}
+
+@media(max-width: 370px){
+    .name{
+        font-size: 50px;
+    }
+    .taglines{
+        margin-top:80px;
+        font-size:10px;
+    }
+    .icons{
+        margin-top:110px;
+    }
+}
